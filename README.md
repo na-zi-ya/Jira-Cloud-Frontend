@@ -31,4 +31,22 @@ REACT_APP_API_URL=https://your-jira-api-url
 
 Replace https://your-jira-api-url with your actual Jira API endpoint.
 
+## Usage
+To start the development server:
+
+npm start
+The component will be accessible at http://localhost:3000.
+
+## Component Overview
+The JiraIssues component fetches issues from the Jira API and displays them in a paginated table. It includes:
+
+Pagination buttons (Prev and Next) to navigate through the list of issues.
+Issue details such as key, summary, type, priority, status, and assignee.
+Styling based on issue priority and status using predefined CSS classes.
+
+
+## Customization
+Adjust the priorityIcons and statusStyle objects in the component to match your Jira instance's specific priority and status styles.
+
+
 
